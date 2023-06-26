@@ -36,10 +36,10 @@ export const SecondaryTable = ({ uniqUsers, uniqRequests }) => {
 
 SecondaryTable.propTypes = {
   uniqUsers: number,
-  uniqUsers: number,
+  uniqRequests: number,
 };
 
 SecondaryTable.defaultProps = {
   uniqUsers: 0,
-  uniqUsers: 0,
+  uniqRequests: 0,
 };
