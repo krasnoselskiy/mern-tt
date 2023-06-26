@@ -1,0 +1,19 @@
+.tableRow {
+  &_clientWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_clientColour {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 5px;
+  }
+
+  &_divider {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}

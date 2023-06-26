@@ -1,0 +1,19 @@
+.btn {
+  border: none;
+  box-shadow: 0px 3px 6px #5f459133;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  width: 126px;
+  padding: 17px 0;
+  border-radius: 8px;
+  background: #8a56ac 0% 0% no-repeat padding-box;
+  font: normal normal medium 16px/24px Montserrat;
+  letter-spacing: 0px;
+
+  @media (max-width: 680px) {
+    width: 80px;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,30 @@
+.table {
+  margin-top: 50px;
+  background: #fbf9fc 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #5f459133;
+  border-radius: 0px 0px 16px 16px;
+  margin-bottom: 20px;
+  width: 590px;
+
+  @media (max-width: 680px) {
+    width: 100%;
+    zoom: 0.5;
+  }
+
+  &_td {
+    display: flex;
+    width: 100%;
+    min-height: 65px;
+    align-items: center;
+  }
+
+  td {
+    border: 1px solid #ebe2f1;
+    border-collapse: collapse;
+    padding: 0 20px;
+  }
+
+  td:first-of-type {
+    width: 440px;
+  }
+}
